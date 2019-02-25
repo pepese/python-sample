@@ -2,6 +2,11 @@ import sys
 import random
 
 if __name__ == "__main__":
+    print(~0)
+    print(~1)
+    print(~2)
+    print(~3)
+    """
     print(u"カードの枚数は何枚ですか？[半角数字、0より大きい自然数]")
     n = 0
     pn = 0
@@ -26,3 +31,4 @@ if __name__ == "__main__":
     random.shuffle(l)
     for i in range(pn):
         sys.stdout.write("{0}={1} ".format(chr(65+i), l[i]))
+    """
